@@ -1,6 +1,7 @@
 # 使用 Cloudflare Worker 获取云湖资源
 
 由于云湖的视频、音频、文件 CDN 有 referer 限制，且海外访问速度不佳，本项目通过 Cloudflare Worker 的反代，帮助云湖机器人开发者快速获取云湖的视频、音频、文件等资源。
+> 由于workers在海外及云湖文件床本身限速10MB/s,所以速度可能不佳.
 
 ## 准备
 
